@@ -1,0 +1,64 @@
+The instructions (called source code) written in Python programming language can be executed in two modes:
+
+
+
+Interactive mode: In this mode, lines of code are directly written and executed in the Python interpreter shell, which instantaneously provides the results.
+Normal or script mode: In this mode the source code is saved to a file with .py extension, and the file is executed by the Python interpreter.
+
+
+As we learn Python in this course, we'll use the regular way of running code, which means writing our code in files with a .py ending. This is the practice adopted for building extensive programs in Python.
+
+
+
+For example, calculator.py is called a Python source file.
+
+
+
+The Python program statements have to be entered and saved in a file through a text editor, and then the file has to be executed to produce results.
+
+
+
+If there are any errors in Python code then the system will let you know so that you can fix them.
+
+
+
+There are two types of errors:
+
+Syntax errors
+Runtime errors.
+
+
+1) Syntax errors are like grammatical errors in English. They occur when the defined rules are not followed.
+
+For example:
+
+prin("Hello World")
+
+
+The Python interpreter generates the following syntax error as it did not find a name prin (as the correct method name is print).
+
+
+
+Traceback (most recent call last):
+  File "", line 1, in 
+NameError: name 'prin' is not defined
+When we change the code to print("Hello World"), the Python interpreter would print the output as follows
+
+Hello World
+
+
+2) Runtime errors occur due to incorrect algorithm/logic or wrong operations like dividing by zero during the program execution.
+
+For example:
+
+a = 10
+b = 0
+print(a / b)
+The Python interpreter generates the following runtime error indicating that division by zero occurred during execution.
+
+Traceback (most recent call last):
+  File "", line 1, in 
+ZeroDivisionError: division by zero
+
+Answer:Python source code is written and saved in a file with .py extension.
+
